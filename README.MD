@@ -56,16 +56,23 @@ Access page in: http://localhost:8080
 ps: Need pass Authorization Bearer in header.
 ``` JSON
 {
-	"sale_date": "2021-01-13",
-	"products": [
-    { "name": "Service1", "service": true, "value": 100 },
-    { "name": "Product1", "service": false, "value": 100 }
-  ]
+"sale_date": "2021-01-13",
+"products": [
+	{ "name": "Service1", "service": true, "value": 100 },
+	{ "name": "Product1", "service": false, "value": 100 }
+]
 }
 ```
+
+### Run tests
+- Run `docker exec -it backend_web /home/node/app/ && npm test -- --runInBand`
 ## Features
 In this project, we can enter an account already created, register sales that already calculate the earnings with commission.
 
-
+![Intro](./images/intro.png)
+![Dash](./images/dash.png)
+![Form](./images/form.png)
+![Login](./images/login.png)
+![Tests](./images/tests.png)
 #### Thanks!
 
