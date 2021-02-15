@@ -69,10 +69,16 @@ ps: Need pass Authorization Bearer in header.
 ## Features
 In this project, we can enter an account already created, register sales that already calculate the earnings with commission.
 
+
+### Page: Intro
 ![Intro](./images/intro.png)
-![Dash](./images/dash.png)
-![Form](./images/form.png)
+### Page: Login
 ![Login](./images/login.png)
+### Page: Dashboard
+![Dash](./images/dash.png)
+### Page: Form
+![Form](./images/form.png)
+### Coverage Tests
 ![Tests](./images/tests.png)
 #### Thanks!
 
